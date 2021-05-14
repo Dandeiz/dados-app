@@ -1,0 +1,46 @@
+.modo--normal h2 {
+    padding: 48px 0 16px;
+}
+
+.normal__input {
+    text-align: center;
+    color: white;
+    padding-bottom: 48px;
+    font-size: 1.12rem;
+}
+
+.normal__imagem--umDado {
+    text-align: center;
+    
+}
+
+.normal__umDado {
+    width: 150px;
+    transform: rotate(3deg);
+}
+
+.normal__button {
+    padding-top: 56px;
+    text-align: center;
+}
+
+.normal__imagem--doisDados {
+    display: flex;
+    justify-content: space-around;
+    height: 170px;
+    padding: 0 20px;
+}
+
+.normal__doisDados {
+    width: 100px;
+    height: 100px;
+    transform: rotate(3deg);
+}
+
+.normal__doisDados--segundoDado {
+    align-self:flex-end
+}
+
+.escondido {
+    display: none
+}

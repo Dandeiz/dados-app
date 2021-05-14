@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/modo-normal.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <title>Dados</title>
+</head>
+<body>
+    <header>
+        <a href="#">
+            <h1 class="header__titulo">DADOS</h1>
+        </a>
+    </header>
+    <main>
+        <section class="modo modo--normal container">
+            <h2>MODO NORMAL</h2>
+                <div class="normal__input">
+                    <input type="radio" name="numeroDados" id="umDado" value="1 Dado" checked>
+                    <label for="umDado">1 Dado</label>
+                    <input type="radio" name="numeroDados" id="doisDados" value="2 Dados">
+                    <label for="doisDados">2 Dados</label>
+                </div>
+                <div class="normal__imagem--umDado" data-umDado>
+                    <img class="normal__umDado" src="assets/images/dice5.png" alt="dado número 5">
+                </div>
+                <div class="normal__imagem--doisDados escondido" data-doisDados>
+                    <img src="assets/images/dice5.png" alt="" class="normal__doisDados normal__doisDados--primeiroDado">
+                    <img src="assets/images/dice5.png" alt="" class="normal__doisDados normal__doisDados--segundoDado">
+                </div>
+                <div class="normal__button">
+                    <label>
+                        <input data-botao type="button" value="GIRAR">
+                    </label>
+                </div>
+        </section>
+
+        <footer>
+            <ul class="footer__lista container">
+                <li class="footer__lista--li">
+                    <a href="#" class="footer__lista__modo">NORMAL</a>
+                </li>
+                <li class="footer__lista--li">
+                    <a href="#" class="footer__lista__modo">VERSUS</a>
+                </li>
+            </ul>
+        </footer>
+    </main>
+
+
+    <script src="assets/javascript/main.js"></script>
+</body>
+</html>

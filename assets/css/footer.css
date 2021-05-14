@@ -1,0 +1,24 @@
+footer {
+    background-color: #055887;
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+}
+
+.footer__lista {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer__lista__modo {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+}
+
+.footer__lista--li {
+    padding: 11px 20px;
+}

@@ -24,10 +24,26 @@
     text-align: center;
 }
 
+.normal__button input {
+    width: 130px;
+    height: 50px;
+    border: 4px solid white;
+    border-radius: 28px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+}
+
+.normal__button input:active {
+    position: relative;
+    top: 1px;
+}
+
 .normal__imagem--doisDados {
     display: flex;
     justify-content: space-around;
-    height: 170px;
+    height: 140px;
     padding: 0 20px;
 }
 
@@ -44,3 +60,4 @@
 .escondido {
     display: none
 }
+

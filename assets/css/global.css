@@ -16,3 +16,9 @@ body {
     max-width: 328px;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        background-size: cover;
+    }
+}
